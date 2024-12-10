@@ -14,7 +14,6 @@ const counterSlice = createSlice({
       if (!state.counter < 1) {
         state.counter--;
       }
-      state.counter;
     },
 
     increaseBy5(state, action) {

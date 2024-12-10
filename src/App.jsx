@@ -7,7 +7,7 @@ const App = () => {
   const isLogin = useSelector((state) => state.auth.isLogin);
 
   return (
-    <div className=" px-1 md:px-10 md:m-auto md:w-[80%] text-center">
+    <div className=" px-1 md:px-10 md:m-auto md:w-[60%] text-center">
       <Navbar />
       {!isLogin && <Welcome />}
       {isLogin && <Counter />}

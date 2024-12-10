@@ -24,7 +24,7 @@ const Counter = () => {
   };
 
   return (
-    <section className=" bg-gray-800 text-white m-auto p-5 mt-5 w-[80%] rounded-lg">
+    <section className=" bg-gray-800 text-white m-auto p-5 mt-10 w-[80%] rounded-lg">
       <h3 className="text-xl font-bold mb-5">Redux Counter</h3>
       {isShow && (
         <h1 className="font-bold text-5xl my-5 transition-transform duration-300">
